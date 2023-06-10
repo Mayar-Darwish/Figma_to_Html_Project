@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  height: 95px;
+  padding: 24px 40px;
+  background-color: #202945;
+/* web Side  */
+
+
+}
+
+.navbar-brand {
+  font-size: 24px;
+  color: #fff !important;
+}
+
+.btn {
+  border-radius: 0;
+  border: none;
+}
+
+.check-icon {
+  width: 60px;
+  height: 60px;
+  background-color: #eff0ff;
+  border-radius: 10px;
+
+}
+
+.list-group-item-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-group-item-key {
+  flex: 2;
+}
+
+.list-group-item-value {
+  flex: 2;
+  text-align: right;
+}
+
+.list-group-item-divider {
+  margin: 1.7rem 0;
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.content_1 {
+  padding: 0 15px;
+  margin: 30px auto;
+}
+
+.list-group-item-divider {
+  padding: 20px;
+  margin: 0.5rem 0;
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+@media (max-width: 768px) {
+  .btn-floating {
+    width: 35px !important;
+    font-size: 15px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .listing-heading {
+    font-size: 20px;
+  }
+}
+
+
+
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+}
+
+
+.container-fluid {
+  flex: 1;
+}
